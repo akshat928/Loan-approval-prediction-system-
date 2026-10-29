@@ -1,0 +1,35 @@
+{
+  "best_model": "logistic_regression",
+  "cv": {
+    "logistic_regression": {
+      "mean_roc_auc": 0.7587,
+      "std": 0.0196
+    },
+    "random_forest": {
+      "mean_roc_auc": 0.7468,
+      "std": 0.0201
+    },
+    "gradient_boosting": {
+      "mean_roc_auc": 0.7316,
+      "std": 0.0181
+    }
+  },
+  "test": {
+    "accuracy": 0.715,
+    "f1": 0.7808,
+    "roc_auc": 0.7736,
+    "confusion_matrix": [
+      [
+        83,
+        46
+      ],
+      [
+        68,
+        203
+      ]
+    ]
+  },
+  "n_train": 1600,
+  "n_test": 400,
+  "approval_rate": 0.6765
+}
